@@ -1,5 +1,7 @@
 # Web记账应用
 
+## [后端项目](https://github.com/Cail-Gainey/cashflow-springboot)
+
 ## 项目简介
 Web记账应用是一个基于Vue2和Spring Boot 3的全栈Web应用，旨在帮助用户高效地管理个人财务信息。用户可以通过该应用进行账单记录、分类管理、资产管理以及账本管理等操作。
 
