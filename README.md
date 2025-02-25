@@ -1,19 +1,64 @@
-# cashflow
+# Web记账应用
 
-## Project setup
-```
-npm install
-```
+## 项目简介
+Web记账应用是一个基于Vue2和Spring Boot 3的全栈Web应用，旨在帮助用户高效地管理个人财务信息。用户可以通过该应用进行账单记录、分类管理、资产管理以及账本管理等操作。
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## 功能特性
+### 用户管理
+- 支持用户注册、登录、找回密码、修改个人信息。
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### 账单管理
+- 用户可以记录、修改、删除账单，并根据不同的账本进行管理。
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 分类管理
+- 支持支出和收入分类的增加、修改、删除，并为每个分类提供图标支持（支持自定义分类图标）。
+
+### 资产管理
+- 用户可以管理不同的资产，包括增加、删除、查询和修改。
+
+## 功能状态跟踪
+
+### ✅ 已实现功能
+- [x] **基础账务功能**  
+  账单CRUD操作 | 分类标签体系 | 多账本隔离机制
+- [x] **用户系统闭环**  
+  JWT鉴权流程 | 验证码集成 | 密码找回链路
+- [x] **基础技术架构**  
+  前后端分离部署 | Redis缓存层 | RESTful API规范
+
+### ⌛ 规划中功能
+- [ ] **数据可视化**  
+  消费趋势图表 | 分类占比饼图 | 资产分布热力图
+- [ ] **智能分析**  
+  自动分类建议 | 异常消费预警 | 月度预算预测
+- [ ] **协同记账**  
+  家庭账本共享 | 权限分级控制 | 修改记录追溯
+
+## 技术栈
+
+### 前端
+- **Vue2**：用于构建用户界面。
+- **Element UI**：用于提供UI组件。
+- **Vuex**：用于状态管理。
+- **Vue Router**：用于路由管理。
+
+### 后端
+- **Spring Boot 3**：用于构建后端服务。
+- **MyBatis Plus**：用于简化数据库操作。
+- **Redis**：用于缓存数据。
+- **MySQL 8**：用于数据存储。
+
+### 其他
+- **JWT**：用于用户认证。
+- **Lombok**：用于简化Java代码。
+
+## 项目启动
+
+### 安装依赖
+`npm install`
+
+### 开发环境启动
+`npm run serve`
+
+### 生产环境构建
+`npm run build`
