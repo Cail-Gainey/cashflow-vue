@@ -1,0 +1,36 @@
+{
+  "name": "accounting-app",
+  "version": "1.0.0",
+  "description": "一个简单的Web记账应用",
+  "main": "index.js",
+  "scripts": {
+    "serve": "vue-cli-service serve --port 80",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "axios": "^1.7.9",
+    "core-js": "^3.8.3",
+    "dayjs": "^1.11.13",
+    "element-ui": "^2.15.14",
+    "font-awesome": "^4.7.0",
+    "moment": "^2.30.1",
+    "vue": "^2.6.14",
+    "vue-contextmenu": "^1.5.11",
+    "vue-cropper": "^0.5.11",
+    "vue-router": "^3.5.1",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
